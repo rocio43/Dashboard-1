@@ -19,14 +19,14 @@ themeToggler.addEventListener('click', () => {
 })
 
 //table
-Orders.forEach(order => {
+Tables.forEach(table => {
     const tr = document.createElement('tr');
     const trContent = 
         `
-        <td>${order.productName}</td>
-        <td>${order.productNumber}</td>
-        <td>${order.paymentStatus}</td>
-        <td class="${order.shipping === 'Declined' ? 'danger' : order.shipping === 'Pending' ? 'warning' : 'primary' }">${order.shipping}</td>
+        <td>${table.productName}</td>
+        <td>${table.productNumber}</td>
+        <td>${table.paymentStatus}</td>
+        <td class="${table.shipping === 'Declined' ? 'danger' : table.shipping === 'Pending' ? 'warning' : 'primary' }">${table.shipping}</td>
         <td class="primary">Details</td>
         `;
     tr.innerHTML = trContent;
