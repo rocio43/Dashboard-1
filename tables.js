@@ -1,32 +1,32 @@
 const Tables = [
     {
-        productName: 'Foldable Mini Drone',
-        productNumber: '85631',
-        paymentStatus: 'Due',
-        shipping: 'Pending'
+        productName: 'Skin Care 01',
+        productNumber: '010222',
+        paymentStatus: 'Encoded',
+        shipping: 'In Process'
     },
     {
-        productName: 'Lavender ',
-        productNumber: '85631',
-        paymentStatus: 'Refunded',
-        shipping: 'Declined'
+        productName: 'Skin Care 02 ',
+        productNumber: '010322',
+        paymentStatus: 'Bottling',
+        shipping: 'To Start'
     },
     {
-        productName: 'Ruko',
-        productNumber: '85631',
-        paymentStatus: 'Due',
-        shipping: 'Pending'
+        productName: 'Skin Care 03',
+        productNumber: '020322',
+        paymentStatus: 'Encoded',
+        shipping: 'In Process'
     },
     {
-        productName: 'Drone camera drone',
-        productNumber: '85631',
-        paymentStatus: 'Paid',
-        shipping: 'Delivered'
+        productName: 'Skin Care 04',
+        productNumber: '010422',
+        paymentStatus: 'Palletized',
+        shipping: 'Finished'
     },
     {
-        productName: 'GPS 4k Drone',
-        productNumber: '85631',
-        paymentStatus: 'Paid',
-        shipping: 'Delivered'
+        productName: 'Skin Care 05',
+        productNumber: '021221',
+        paymentStatus: 'Palletized',
+        shipping: 'Finished'
     }
 ]
