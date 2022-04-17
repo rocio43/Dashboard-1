@@ -1,4 +1,4 @@
-const order = [
+const Orders = [
     {
         producName: 'Foldable Mini Drone',
         producNumber: '85631',
@@ -6,27 +6,27 @@ const order = [
         shipping: 'Pending'
     },
     {
-        producName: 'Foldable Mini Drone',
+        producName: 'Lavender ',
+        producNumber: '85631',
+        paymentStatus: 'Refunded',
+        shipping: 'Declined'
+    },
+    {
+        producName: 'Ruko',
         producNumber: '85631',
         paymentStatus: 'Due',
         shipping: 'Pending'
     },
     {
-        producName: 'Foldable Mini Drone',
+        producName: 'Drone camera drone',
         producNumber: '85631',
-        paymentStatus: 'Due',
-        shipping: 'Pending'
+        paymentStatus: 'Paid',
+        shipping: 'Delivered'
     },
     {
-        producName: 'Foldable Mini Drone',
+        producName: 'GPS 4k Drone',
         producNumber: '85631',
-        paymentStatus: 'Due',
-        shipping: 'Pending'
-    },
-    {
-        producName: 'Foldable Mini Drone',
-        producNumber: '85631',
-        paymentStatus: 'Due',
-        shipping: 'Pending'
+        paymentStatus: 'Paid',
+        shipping: 'Delivered'
     }
 ]
