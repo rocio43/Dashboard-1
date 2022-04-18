@@ -26,7 +26,7 @@ Tables.forEach(table => {
         <td>${table.productName}</td>
         <td>${table.productNumber}</td>
         <td>${table.paymentStatus}</td>
-        <td class="${table.shipping === 'Declined' ? 'danger' : table.shipping === 'Pending' ? 'warning' : 'primary' }">${table.shipping}</td>
+        <td class="${table.shipping === 'To Start' ? 'danger' : table.shipping === 'In Process' ? 'warning' : 'primary' }">${table.shipping}</td>
         <td class="primary">Details</td>
         `;
     tr.innerHTML = trContent;
