@@ -232,10 +232,10 @@ main .insights > div span{
     color: var(--color-5);
     font-size: 2rem;
 }
-main .insights > div.expenses span{
+main .insights > div.box-2 span{
     background: var(--color-2);
 }
-main .insights > div.income span{
+main .insights > div.box-3 span{
     background: var(--color-3);
 }
 main .insights > div .middle{
@@ -264,15 +264,15 @@ main .insights svg circle{
     stroke-linecap: round;
     transform: translate(5px, 5px);
 }
-main .insights .sales svg circle{
+main .insights .box-1 svg circle{
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }
-main .insights .expenses svg circle{
+main .insights .box-2 svg circle{
     stroke-dashoffset: 20;
     stroke-dasharray: 80;
 }
-main .insights .income svg circle{
+main .insights .box-3 svg circle{
     stroke-dashoffset: 35;
     stroke-dasharray: 110;
 }
@@ -365,10 +365,10 @@ main .recent-order a{
     text-align: right;
 }
 /*============================= RIGHT WING ==============================*/
-.right .sales-analytics h2{
+.right .box-1-analytics h2{
     margin-bottom: 0.8rem;
 }
-.right .sales-analytics .item{
+.right .box-1-analytics .item{
     background: var(--color-5);
     display: flex;
     align-items: center;
@@ -379,30 +379,30 @@ main .recent-order a{
     box-shadow: var(--box-shadow);
     transition: all 300ms ease;
 }
-.right .sales-analytics .item:hover{
+.right .box-1-analytics .item:hover{
     box-shadow: none;
 }
-.right .sales-analytics .right{
+.right .box-1-analytics .right{
     display: flex;
     justify-content: space-between;
     align-items: start;
     margin: 0;
     width: 100%;
 }
-.right .sales-analytics .item .icon{
+.right .box-1-analytics .item .icon{
     padding: 0.6rem;
     color: var(--color-5);
     border-radius: 50%;
     background: var(--color-1);
     display: flex;
 }
-.right .sales-analytics .item.offline .icon{
+.right .box-1-analytics .item.offline .icon{
     background: var(--color-2);
 }
-.right .sales-analytics .item.customers .icon{
+.right .box-1-analytics .item.customers .icon{
     background: var(--color-3);
 }
-.right .sales-analytics .add-product{
+.right .box-1-analytics .add-product{
     background: transparent;
     border: 2px dashed var(--color-1);
     color: var(--color-1);
@@ -410,12 +410,12 @@ main .recent-order a{
     align-items: center;
     justify-content: center;
 }
-.right .sales-analytics .add-product div{
+.right .box-1-analytics .add-product div{
     display: flex;
     align-items: center;
     gap: 0.6rem;
 }
-.right .sales-analytics .add-product div h3{
+.right .box-1-analytics .add-product div h3{
     font-weight: 600;
 }
 /*==================== MEDIA QUERIES LAPTOP-TABLET ======================*/
